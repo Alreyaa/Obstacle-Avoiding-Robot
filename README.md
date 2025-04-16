@@ -2,13 +2,9 @@
 
 An autonomous robot that navigates its environment while avoiding obstacles using an **ultrasonic sensor mounted on a servo motor**, an **Arduino Uno**, and a **motor driver**. The servo rotates the ultrasonic sensor to scan left and right, giving the robot a better idea of where to go.
 
----
-
 ## 🧠 Gist of the Project
 
 This project demonstrates the basics of robotics and sensor integration. Using a combination of **ultrasonic distance sensing**, **servo-controlled scanning**, and **DC motor control**, the robot continuously scans for obstacles and avoids collisions by changing direction. This dynamic system mimics real-world autonomous navigation at a basic level.
-
----
 
 ## 📦 Prerequisites
 
@@ -24,8 +20,6 @@ Make sure you have the following software and libraries installed:
 3. In the Library Manager, search for **"NewPing"**.
 4. Click **Install** on the **NewPing** library by Tim Eckel.
 
----
-
 ## 🧰 Components Required
 
 | Component                   | Quantity |
@@ -40,8 +34,6 @@ Make sure you have the following software and libraries installed:
 | Jumper Wires                | Several  |
 | 9V Battery + Connector      | 2        |
 | Caster Wheel                | 1        |
-
----
 
 ## ⚙️ Connections
 
@@ -82,10 +74,6 @@ Make sure you have the following software and libraries installed:
 | GND         | Common Ground  |
 | 5V          | Vin            |
 
-
-
----
-
 ## 🚀 Uploading the Code
 
 1. Install the **NewPing** library if not already installed (see above).
@@ -97,8 +85,6 @@ Make sure you have the following software and libraries installed:
 7. Click the **Upload** button.
 8. Once uploaded, disconnect USB and connect the 9V battery to power the robot.
 
----
-
 ## 🧪 Testing
 
 - Place the robot on a flat surface.
@@ -108,14 +94,9 @@ Make sure you have the following software and libraries installed:
   - Move forward if the path is clear
   - Change direction based on obstacle position
 
----
-
-
 ## 🧾 Reference
 
 - Instructables Guide: [Obstacle Avoiding Robot](https://www.instructables.com/Obstacle-Avoiding-Robot-Arduino-1/)
-
----
 
 ## 📄 License
 
