@@ -58,7 +58,7 @@ Make sure you have the following software and libraries installed:
 |-----------------|-----------------|
 | VCC (Red)       | 5V (breadboard) |
 | GND (Brown)     | GND (breadboard)|
-| Signal (Orange) | D11 |
+| Signal (Orange) | Digital pin 10  |
 
 ### ⚡ L298N Motor Driver → Arduino & Motors
 
